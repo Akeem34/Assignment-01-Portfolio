@@ -1,0 +1,79 @@
+@charset "UTF-8"; /* tells browser how to interpret the css styling */
+
+
+ 
+    /* while working on the style sheet boxes kept changing position so I went on reddit for a soloution,
+    I found a property called box sizing which in short makes it so if two elements have the same width and 
+    height and differnt amounts of padding there sizes will turn out the exact same*/
+
+
+
+section { /* on the project page all the projects are kept in a section tag*/
+  padding: 40px 20px;
+}
+
+.card{/* Because card is a CLASS not an ID (like the wrapper) its uses a '.' to be called in CSS*/
+  
+    box-sizing: border-box;
+  padding: 40px 20px;
+  background-color: #8E8241;
+
+}
+
+
+
+body {
+    box-sizing: border-box;  /* while working on the style sheet boxes kept changing position so I went on reddit for a soloution, I found a property called box sizing which in short makes it so if two elements have the same width and height and differnt amounts of padding there sizes will turn out the exact same*/
+    background-color: #3A485E;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #F4F1E6;
+    line-height: 1.6;
+}
+
+#wrapper {
+    box-sizing: border-box; 
+    width: 960px;
+    height: 800px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #24445A;
+}
+
+header {
+    box-sizing: border-box; 
+    background-color: #54511F;
+    padding: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-bottom: 4px solid #8E8241;
+}
+
+main {
+    box-sizing: border-box; 
+    background-color: #3A485E;
+    font-size: larger;
+    padding: 20px;
+    width: 68%;
+    float: left;
+}
+
+aside {
+    box-sizing: border-box; 
+    background-color: #8E8241;
+    color: #1d1b0a; /* dark text for contrast on gold */
+    font-size: larger;
+    padding: 20px;
+    width: 30%;
+    float: right;
+}
+
+footer {
+    box-sizing: border-box; 
+    clear: both; /* keeps footer below the floated columns */
+    background-color: #54511F;
+    font-size: larger;
+    height: 100px;
+    padding: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
