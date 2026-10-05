@@ -3,15 +3,16 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="base.css">
         <title>About Me</title>
     </head>
 
 
 
 <body>
-    <div id="Wrapper"> <!--gonna put everything on this page within a nice diagnal gradient*/ -->
-        <header> <!-- Header tag because this goes on the top of the screen-->
+    <div id="wrapper"> <!--gonna put everything on this page within a nice diagnal gradient*/ -->
 
+        <header> <!-- Header tag because this goes on the top of the screen-->
             <h1> About</h1>
                 <nav> <!-- Nav tag for the navigation bar-->
                     <h3>    
@@ -20,31 +21,34 @@
                 </nav>
         <header>
             
-            
+        <main>
         <video
-            id="video"
+            id="Video_About"
             controls 
-            width="320" 
-            height="240" 
             preload="auto" 
             poster="Media/Portrait_Placeholder.png"
-            muted
             style="width:32%"
             loop>
             <source src = "Media/on_record.mp4" type="video/mp4">
         </video>
 
+        <article id="Text_About">
+            <p>This is text beside the video</p>
+        </article>
+        <br>
+        <br>
+
         <figure>
-            <img 
+            <img class="Pic_About" 
             src="Media/Portrait_Placeholder.png" 
             alt=" A pictire of Akeem Lande" 
             style="width: 32%">
-        <figcaption> Abdulakeem Lanade (images goes above the video btw)</figcaption>
+        <figcaption> Abdulakeem Lanade</figcaption>
         </figure>
 
-        <main> <!-- The "main" tag is simply for the MAIN contents of this page I learned this from W3 Schools-->
-            <p>This text is going beside the image of myslef</p>
-        </main>
+        
+    
+    </main>
 
 
         <footer> <!--This footer will be at the bottem of every page-->
