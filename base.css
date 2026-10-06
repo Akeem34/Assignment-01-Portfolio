@@ -1,13 +1,6 @@
 @charset "UTF-8"; /* tells browser how to interpret the css styling */
 
 
-    /* I also wacthed a video on how to use it 
-    https://www.youtube.com/watch?v=qvx2SZzoqqQ&t=165s
-    3:12
-    */
-
-
-
 section { /* on the project page all the projects are kept in a section tag*/
   padding: 40px 20px;
 }
@@ -27,7 +20,7 @@ section { /* on the project page all the projects are kept in a section tag*/
 body {
     box-sizing: border-box;  /* while working on the style sheet boxes kept changing position so I went on reddit for a soloution, I found a property called box sizing which in short makes it so if two elements have the same width and height and differnt amounts of padding there sizes will turn out the exact same*/
     background-color: #3A485E;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /*different fonts to be used if the first one fails */
     color: #F4F1E6;
     line-height: 1.6; /* Line height determines the size inbetween lines for div elements I saw online 1.6 is the standard*/
 }

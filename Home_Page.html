@@ -1,48 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- These were copied from the lecture notes-->
+        <!-- In short these link to different style sheets based on the devices screen width-->
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="base.css">
-    <title>Home</title>
-</head>
+        <!--  full-size monitor style sheet--> 
+        <link  href="base.css"  rel="stylesheet"  type="text/css"  media="only screen and (min- width:960px)" >
+        <title>Home</title>
+        <!--  tablet style sheet--> 
+        <link  href="tablet.css"  rel="stylesheet"  type="text/css"  media="only screen 
+        and (min-width:481px) and (max-width:960px)"> 
+        <!--  phone style sheet--> 
+        <link  href="phone.css"  rel="stylesheet"  type="text/css"  media="only screen 
+        and (max-width:480px)">
+    </head>
 
-<body>
+    <body>
+        <div id="wrapper"> <!--gonna put everything on this page within a nice diagnal gradient*/ -->
+            <header> <!-- Header tag because this goes on the top of the screen-->
+                <h1> Abdulakeem Lanade</h1>
+                    <nav> <!-- Nav tag for the navigation bar-->
+                        <h3>    
+                            <a href="About_Page.html">About</a> |<a href="Projects.html">Projects</a>| <a href="Contact_Page.html">Contact</a> 
+                        </h3>
+                    </nav>
+            </header>
 
-    <div id="wrapper"> <!--gonna put everything on this page within a nice diagnal gradient*/ -->
-        <header> <!-- Header tag because this goes on the top of the screen-->
-
-            <h1> Abdulakeem Lanade</h1>
-                <nav> <!-- Nav tag for the navigation bar-->
-                    <h3>    
-                        <a href="About_Page.html">About</a> |<a href="Projects.html">Projects</a>| <a href="Contact_Page.html">Contact</a> 
-                    </h3>
-                </nav>
-        </header>
-
-        <main> <!-- The "main" tag is simply for the MAIN contents of this page I learned this from W3 Schools-->
-            <p>Im Akeem, a Technology Management Student currently atending Ontario Tech university,</p>
-        </main>
-        
-        <aside class="Aside_Home"> 
-            <figure>
-            <img class="Pic_Home" 
-            src="Media/Portrait_Placeholder.png" 
-            alt=" A pictire of Akeem Lande" 
-            style="width: 80%">
+            <main> <!-- The "main" tag is simply for the MAIN contents of this page I learned this from W3 Schools-->
+                <p>Im Akeem, a Technology Management Student currently atending Ontario Tech university,</p>
+            </main>
             
-        <figcaption> Abdulakeem Lanade </figcaption>
-        </figure>
+            <aside class="Aside_Home"> 
+                <figure>
+                    <img class="Pic_Home" 
+                    src="Media/Portrait_Placeholder.png" 
+                    alt=" A pictire of Akeem Lande" 
+                    style="width: 80%">
+                    <figcaption> Abdulakeem Lanade </figcaption>
+                </figure>
+            </aside>
+            <footer> <!--This footer will be at the bottem of every page-->
+                <h5>©2026 by <mark>Abdulakeem Lanade</mark> contact at <mark>Abdulakeem.lanade@ontariotechu.net</mark></h5> <!-- I put the mark there just to make it feel differnt from the one from the pdf example-->
+            </footer>
 
-        </aside>
-
-
-        <footer> <!--This footer will be at the bottem of every page-->
-            <h5>©2026 by <mark>Abdulakeem Lanade</mark> contact at <mark>Abdulakeem.lanade@ontariotechu.net</mark></h5> <!-- I put the mark there just to make it feel differnt from the one from the pdf example-->
-        </footer>
-
-    </div>
-
-</body>
+        </div>
+    </body>
 </html>
