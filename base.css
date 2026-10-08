@@ -1,9 +1,7 @@
 @charset "UTF-8"; /* tells browser how to interpret the css styling */
 
 
-section { /* on the project page all the projects are kept in a section tag*/
-  padding: 40px 20px;
-}
+
 
 .Project_Card{ /* Because Project_Card is a CLASS not an ID (like the wrapper) its uses a '.' to be called in CSS*/
   
@@ -11,19 +9,18 @@ section { /* on the project page all the projects are kept in a section tag*/
   border: 1px solid #3d6680;
   border-radius: 30px; /* Rounds the corners of the projects */
   padding: 20px; /* increases the size of each project box */
+  margin-bottom: 1%;
+  font-size: larger;
 }
 
 
 body {
-    box-sizing: border-box;  /* while working on the style sheet boxes kept changing position so I went on reddit for a soloution, I found a property called box sizing which in short makes it so if two elements have the same width and height and differnt amounts of padding there sizes will turn out the exact same*/
     background-color: #3A485E;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /*different fonts to be used if the first one fails */
     color: #F4F1E6;
-    line-height: 1.6; /* Line height determines the size inbetween lines for div elements I saw online 1.6 is the standard*/
 }
 
 #wrapper {
-    box-sizing: border-box; 
     width: 960px;
     height: auto;    
     margin: 20px auto;
@@ -32,7 +29,6 @@ body {
 }
 
 header {
-    box-sizing: border-box; 
     background-color: #54511F;
     padding: 20px;
     margin-bottom: 10px;
@@ -41,7 +37,6 @@ header {
 }
 
 main {
-    box-sizing: border-box; 
     background-color: #3A485E;
     font-size: larger;
     padding: 20px;
@@ -50,27 +45,30 @@ main {
 }
 
 .Main_home{
+    box-sizing: border-box; 
     max-width: 68%;
-    font-size: x-large;
+    font-size: xx-large;
+    text-align: center;
 }
 
 aside {
     box-sizing: border-box; 
     background-color: #8E8241;
     color: #1d1b0a; 
-    font-size: larger;
+    font-size: large;
+    text-align: center;
     padding: 20px;
     width: 30%;
     float: right;
+    margin-bottom: 1%;
 }
 
 
 nav{
-    box-sizing: border-box;
     background-color: #54511F;
     margin-top: 10px;
     text-align: center;
-
+    font-size: larger;
 }
 
 a{
