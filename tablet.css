@@ -1,87 +1,94 @@
-@charset "UTF-8"; /* tells browser how to interpret the css styling */
-
-.Project_Card{ /* Because Project_Card is a CLASS not an ID (like the wrapper) its uses a '.' to be called in CSS*/
-  background-color: #8E8241;
-  border: 1px solid #3d6680;
-  border-radius: 30px; 
-  font-size: large;
-  margin-bottom: 1%;
-  padding: 3%;
-
-}
+@charset "UTF-8"; /* tells the browser how to interpret the CSS */
 
 body {
-    background-color: #5e3a3e;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /*different fonts to be used if the first one fails */
+    background-color: #3A485E;
     color: #F4F1E6;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #wrapper {
-    box-sizing: border-box; 
-    width: 90%;
-    height: auto;    
-    margin: 20px auto;
+    box-sizing: border-box;
+    width: 85%;
+    height: auto;
+    margin: auto;
     padding: 5%;
     background-color: #24445A;
 }
 
 header {
-    box-sizing: border-box; 
-    background-color: #54511F;
-    padding: 20px;
+    box-sizing: border-box;
     margin-bottom: 10px;
-    text-align: center;
-    border-bottom: 4px solid #8E8241;
-}
-
-main {
-    box-sizing: border-box; 
-    background-color: #3A485E;
-    font-size: larger;
-    padding: 3%;
-    min-width: 68%;
-    float: left;   
-}
-
-.Main_home{
-    max-width: 68%;
-    font-size: x-large;
-}
-
-aside {
-    box-sizing: border-box; 
-    background-color: #8E8241;
-    color: #1d1b0a; 
-    font-size: larger;
     padding: 20px;
-    width: 30%;
-    float: right;
-}
-
-
-nav{
     background-color: #54511F;
-    margin-top: 2%;
+    border-bottom: 4px solid #8E8241;
     text-align: center;
+}
+
+nav {
+    margin-top: 2%;
+    background-color: #54511F;
     font-size: larger;
+    text-align: center;
 }
 
-a{
-    color:#F4F1E6; /* changes the color of  a link */
+a {
+    color: #F4F1E6;
 }
 
-a:hover{
-    color: blue; /* when hovering over a link*/
-}
-
-a:visited{ /*after you vist a link */
+a:visited { /* after you have visited a link */
     color: darkgray;
 }
 
+a:hover { /* while hovering over a link */
+    color: blue;
+}
+
+main {
+    box-sizing: border-box;
+    float: left;
+    width: 68%;
+    padding: 3%;
+    background-color: #3A485E;
+    font-size: larger;
+    
+}
+
+.Main_home {
+    max-width: 68%;
+    font-size: x-large;
+
+}
+
+article{
+    margin-left: 1%;
+    text-align: center;
+}
+
+
+aside {
+    box-sizing: border-box;
+    float: right;
+    width: 30%;
+    padding: 20px;
+    background-color: #8E8241;
+    color: #1d1b0a;
+    font-size: larger;
+}
+
+/* Project_Card is a class (not an ID like #wrapper), so it's targeted with a '.' */
+.Project_Card {
+    margin-bottom: 1%;
+    padding: 3%;
+    background-color: #8E8241;
+    border: 1px solid #3d6680;
+    border-radius: 30px;
+    font-size: large;
+}
+
 footer {
-    clear: both; 
+    clear: both; /* keeps the footer below the floated main and aside */
+    padding: 10px;
     background-color: #54511F;
     font-size: larger;
-    padding: 10px;
-    text-align: center; 
+    text-align: center;
 }

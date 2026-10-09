@@ -1,0 +1,73 @@
+@charset "UTF-8"; /* phone: 480px and under, overrides base.css only */
+
+#wrapper {
+    width: 100%;
+    padding: 3%;
+    box-sizing: border-box;
+}
+
+
+body{
+
+    background-color: #3A485E;
+}
+header {
+    padding: 5%;
+    
+}
+
+nav {
+    margin-top: 2%;
+    background-color: #54511F;
+    text-align: center;
+    font-size: x-large;
+    padding: 5%;
+}
+
+/* stack the columns*/
+main,
+aside {
+    float: none;
+    width: 100%;
+    min-width: 0;          
+    margin-bottom: 5%; 
+}
+
+
+
+.Main_home {
+    max-width: 100%;   
+        
+}
+
+.Project_Card {
+    border-radius: 15px;
+    margin-bottom: 1%;
+    padding: 3%;
+    background-color: #8E8241;
+    border: 3px solid #3d6680;
+    font-size: large;
+}
+
+
+img,
+video {
+    max-width: 100%;
+    height: auto;
+    width: 50%; margin: 0 auto;
+    
+}
+
+.profile-pic {
+    width: 60%;
+}
+
+
+footer {
+    margin-top: 5%;
+    clear: both; /* keeps footer below the floated columns */
+    background-color: #54511F;
+    font-size: larger;
+    padding: 2%;
+    text-align: center; /*keeps the text of the footer in the center*/
+}

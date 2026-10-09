@@ -3,56 +3,53 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- These were copied from the lecture notes-->
-        <!-- In short these link to different style sheets based on the devices screen width-->
+      
 
-        <!--  full-size monitor style sheet--> 
-        <link  href="base.css"  rel="stylesheet"  type="text/css"  media="only screen and (min-width:960px)" >
-        <title>Home</title>
-        <!--  tablet style sheet--> 
-        <link  href="tablet.css"  rel="stylesheet"  type="text/css"  media="only screen 
-        and (min-width:481px) and (max-width:960px)"> 
-        <!--  phone style sheet--> 
-        <link  href="phone.css"  rel="stylesheet"  type="text/css"  media="only screen 
-        and (max-width:480px)">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="base.css" rel="stylesheet" type="text/css">
+<link href="tablet.css" rel="stylesheet" type="text/css"
+      media="only screen and (min-width:481px) and (max-width:959px)">
+<link href="phone.css" rel="stylesheet" type="text/css"
+      media="only screen and (max-width:480px)">
+
         <title>About Me</title>
     </head>
 
 
 
     <body>
-        <div id="wrapper"> <!--gonna put everything on this page within a nice diagnal gradient*/ -->
-            <header> <!-- Header tag because this goes on the top of the screen-->
+        <div id="wrapper"> 
+            <header> 
                 <h1> About</h1>
-                    <nav> <!-- Nav tag for the navigation bar-->
+                    <nav> 
                         <h3>    
                             <a href="Home_Page.html">Home</a> | <a href="Projects.html">Projects</a>| <a href="Contact_Page.html">Contact</a> 
                         </h3>
                     </nav>
-            <header>
+            </header>
                 
-        <main>
-             <article class="about-card">
-                <figure class="profile-pic">
-                    <img src="Media/Portrait_Placeholder.png" alt="Portrait of Abdulakeem Lanade" style="width: 55%;">
+        <main >
+             <article>
+                <figure>
+                    <img src="Media/Portrait_Placeholder.png" alt="Portrait of Abdulakeem Lanade" style="max-width: 85%;">
                     <figcaption>Abdulakeem Lanade</figcaption>
                 </figure>
                 <h2>Hi, I'm Abdulakeem</h2>
                 <p>I am a Technology Management Studnet who swicthed over from computer Science I'm glad to meet you!</p>
             </article>
     
-            <article class="about-card">
-                <h2>Watch My Introduction</h2>
-                <video class="intro-vid" controls preload="metadata" style="width: 55%;"
+            <article>
+                <h2>Watch This video I own</h2>
+                <video controls preload="metadata" style="max-width: 85%;"
                        poster="Media/Portrait_Placeholder.png" >
-                    <source src="Media/on_record.mp4" type="video/mp4" >
+                    <source src="Media/Fridgely_Pitch.mp4" type="video/mp4" >
                 </video>
             </article>
             
         </main>
 
-        <footer> <!--This footer will be at the bottem of every page-->
-            <h5>©2026 by <mark>Abdulakeem Lanade</mark> contact at <mark>Abdulakeem.lanade@ontariotechu.net</mark></h5> <!-- I put the mark there just to make it feel differnt from the one from the pdf example-->
+        <footer> 
+            <h5>©2026 by <mark>Abdulakeem Lanade</mark> contact at <mark>Abdulakeem.lanade@ontariotechu.net</mark></h5> 
         </footer>
 
         </div>

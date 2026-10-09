@@ -3,18 +3,11 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- These were copied from the lecture notes-->
-        <!-- In short these link to different style sheets based on the devices screen width-->
-
-        <!--  full-size monitor style sheet--> 
-        <link  href="base.css"  rel="stylesheet"  type="text/css"  media="only screen and (min-width:960px)" >
+        <link href="base.css" rel="stylesheet" type="text/css">
+        <link href="tablet.css" rel="stylesheet" type="text/css" media="only screen and (min-width:601px) and (max-width:959px)">
+        <link href="phone.css" rel="stylesheet" type="text/css" media="only screen and (max-width:600px)">
         <title>Home</title>
-        <!--  tablet style sheet--> 
-        <link  href="tablet.css"  rel="stylesheet"  type="text/css"  media="only screen 
-        and (min-width:481px) and (max-width:960px)"> 
-        <!--  phone style sheet--> 
-        <link  href="phone.css"  rel="stylesheet"  type="text/css"  media="only screen 
-        and (max-width:480px)">
+         
     </head>
 
     <body>
@@ -32,19 +25,18 @@
                 <p>Im Akeem, a Technology Management Student currently atending Ontario Tech university,</p>
             </main>
             
-            <aside class="Aside_Home"> 
+            <aside> 
                 <figure>
-                    <img class="Pic_Home" 
+                    <img class="profile-pic"
                     src="Media/Portrait_Placeholder.png" 
                     alt=" A pictire of Akeem Lande" 
                     style="width: 80%">
                     <figcaption> Abdulakeem Lanade </figcaption>
                 </figure>
             </aside>
-            <footer> <!--This footer will be at the bottem of every page-->
+            
+            <footer> 
                 <h5>©2026 by <mark>Abdulakeem Lanade</mark> contact at <mark>Abdulakeem.lanade@ontariotechu.net</mark></h5> <!-- I put the mark there just to make it feel differnt from the one from the pdf example-->
             </footer>
-
-        </div>
     </body>
 </html>

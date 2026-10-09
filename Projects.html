@@ -3,62 +3,54 @@
 <head>
     <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- These were copied from the lecture notes-->
-        <!-- In short these link to different style sheets based on the devices screen width-->
+      
 
-        <!--  full-size monitor style sheet--> 
-        <link  href="base.css"  rel="stylesheet"  type="text/css"  media="only screen and (min-width:960px)" >
-        <title>Home</title>
-        <!--  tablet style sheet--> 
-        <link  href="tablet.css"  rel="stylesheet"  type="text/css"  media="only screen 
-        and (min-width:481px) and (max-width:960px)"> 
-        <!--  phone style sheet--> 
-        <link  href="phone.css"  rel="stylesheet"  type="text/css"  media="only screen 
-        and (max-width:480px)">
-    <title>Projects</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="base.css" rel="stylesheet" type="text/css">
+        <link href="tablet.css" rel="stylesheet" type="text/css" media="only screen and (min-width:481px) and (max-width:959px)">
+        <link href="phone.css" rel="stylesheet" type="text/css" media="only screen and (max-width:480px)">
+        <title>Projects</title>
 </head>
 
 <body>
-    <div id="wrapper"> <!--gonna put everything on this page within a nice diagnal gradient*/ -->
-        <header> <!-- Header tag because this goes on the top of the screen-->
+    <div id="wrapper"> 
+            <header> 
+                <h1> Projects </h1>
+                    <nav> <!-- Nav tag for the navigation bar-->
+                        <h3>    
+                            <a href="Home_Page.html">Home</a> | <a href="About_Page.html">About</a>| <a href="Contact_Page.html">Contact</a> 
+                        </h3>
+                    </nav>
+            </header>
 
-            <h1> Projects </h1>
-                <nav> <!-- Nav tag for the navigation bar-->
-                    <h3>    
-                        <a href="Home_Page.html">Home</a> | <a href="About_Page.html">About</a>| <a href="Contact_Page.html">Contact</a> 
-                    </h3>
-                </nav>
-        </header>
-
-    <section id="projects">  <!-- Saw the section tag from one of the tuorials, learned from W3 schools ist just for a geniric section of your webpage-->
-        <h2>Projects</h2>
-        <!-- Give each of these a class called "card" I will use this class in the CSS file to make things look nice-->
-         <!-- Each project is in an artilcle tag inclduing a header and a paragraph-->
+        <section id="projects">
           
-        <article class="Project_Card">
-            <h3>Fridgely (Intro to Entrunerpurship)</h3>
-            <p>A smart fridge tracker that turns your daily kitchen habits into real climate action. With Fridgely you can keep track of whats in your fridge, find smart recipe seggistions and keep an eye on your carbon footprint</p>
-        </article>
+            
+            <article class="Project_Card">
+                <h3>Fridgely (Intro to Entrunerpurship)</h3>
+                <p>A smart fridge tracker that turns your daily kitchen habits into real climate action. With Fridgely you can keep track of whats in your fridge, find smart recipe seggistions and keep an eye on your carbon footprint</p>
+            </article>
 
-        <article class="Project_Card">
-            <h3>Lloyds of London (Object Oreinted Programming)</h3>
-            <p>A banking system coded in python encompasing numberous Object Oreinted Programing practices such as GUI creation, file manipulation inhertance and Tkinter.</p>
-        </article>
+            <article class="Project_Card">
+                <h3>Lloyds of London (Object Oreinted Programming)</h3>
+                <p>A banking system coded in python encompasing numberous Object Oreinted Programing practices such as GUI creation, file manipulation inhertance and Tkinter.</p>
+            </article>
 
-        <article class="Project_Card">
-            <h3>Durham Financial (Intro to business analytics)</h3>
-            <p>A loan calculator made in excel using Visual Basics. Takes in a person Financial details such as their income, monthly expenses and their credit rating , and lets the user know weather they should aprove a loan application or not</p>
-        </article>
+            <article class="Project_Card">
+                <h3>Durham Financial (Intro to business analytics)</h3>
+                <p>A loan calculator made in excel using Visual Basics. Takes in a person Financial details such as their income, monthly expenses and their credit rating , and lets the user know weather they should aprove a loan application or not</p>
+            </article>
 
-        <article class="Project_Card">
-            <h3>Essay Writing (Writting and Critical Thinking)</h3>
-            <p>Educated classmates on the importance and key points of an essay. Some things coverd include why essays matter, the structure of an essay and  tips for writting better essays</p>
-        </article>
-  </section>
+            <article class="Project_Card">
+                <h3>Essay Writing (Writting and Critical Thinking)</h3>
+                <p>Educated classmates on the importance and key points of an essay. Some things coverd include why essays matter, the structure of an essay and  tips for writting better essays</p>
+            </article>
+    </section>
 
-    <footer> <!--This footer will be at the bottem of every page-->
-        <h5>©2026 by <mark>Abdulakeem Lanade</mark> contact at <mark>Abdulakeem.lanade@ontariotechu.net</mark></h5> <!-- I put the mark there just to make it feel differnt from the one from the pdf example-->
-    </footer>
+        <footer> 
+            <h5>©2026 by <mark>Abdulakeem Lanade</mark> contact at <mark>Abdulakeem.lanade@ontariotechu.net</mark></h5> <!-- I put the mark there just to make it feel differnt from the one from the pdf example-->
+        </footer>
     </div>
 </body>
 </html>

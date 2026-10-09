@@ -3,18 +3,14 @@
 <head>
     <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- These were copied from the lecture notes-->
-        <!-- In short these link to different style sheets based on the devices screen width-->
+       
 
-        <!--  full-size monitor style sheet--> 
-        <link  href="base.css"  rel="stylesheet"  type="text/css"  media="only screen and (min-width:960px)" >
-        <title>Home</title>
-        <!--  tablet style sheet--> 
-        <link  href="tablet.css"  rel="stylesheet"  type="text/css"  media="only screen 
-        and (min-width:481px) and (max-width:960px)"> 
-        <!--  phone style sheet--> 
-        <link  href="phone.css"  rel="stylesheet"  type="text/css"  media="only screen 
-        and (max-width:480px)">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="base.css" rel="stylesheet" type="text/css">
+        <link href="tablet.css" rel="stylesheet" type="text/css" media="only screen and (min-width:481px) and (max-width:959px)">
+        <link href="phone.css" rel="stylesheet" type="text/css" media="only screen and (max-width:480px)">
+        <title>Projects</title>
     <title>Contact</title>
 </head>
 
@@ -23,14 +19,14 @@
         
     <header>
         <h1>Lets Stay in touch!</h1>
-        <nav> <!-- Nav tag for the navigation bar-->
+        <nav> 
             <h3>    
                 <a href="Home_Page.html">Home</a> | <a href="Projects.html">Projects</a>| <a href="About_Page.html">About</a> 
             </h3>
         </nav>
     </header>
 
-        <form 
+    <form 
         action="mailto:abdulakeem.lanade@ontariotechu.net?subject=WouldLikeToStayInTouch%20on%20website"
          method="post" 
          enctype="text/plain" 
@@ -55,14 +51,13 @@
         </p>
         <p>
             <label for="comments">Comments</label><br> <!--Made sure that the comments section is a text area not a label-->
-            <textarea id="comments" name="Comments" cols="60" rows="6"></textarea>
+            <textarea id="comments" name="Comments" cols="45" rows="6"></textarea>
         </p>
 
         <input type="submit" value="Submit">
-        </form>
-
-        <footer> <!--This footer will be at the bottem of every page-->
-            <h5>©2026 by Abdulakeem Lanade,contact at <mark>Abdulakeem.lanade@ontariotechu.net</mark></h5> <!-- I put the mark there just to make it feel differnt from the one from the pdf example-->
+    </form>
+        <footer> 
+            <h5>©2026 by <mark>Abdulakeem Lanade</mark> contact at <mark>Abdulakeem.lanade@ontariotechu.net</mark></h5> <!-- I put the mark there just to make it feel differnt from the one from the pdf example-->
         </footer>
 
     </div>
