@@ -81,7 +81,7 @@ a {
 }
 
 a:visited { /* after you have visited a link */
-    color: whitesmoke;
+    color: rgb(172, 213, 216);
 }
 
 a:hover { /* while hovering over a link */
