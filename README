@@ -1,8 +1,26 @@
-2026-09-29
-    Color scheme created using Adobe Color, I belive the color scheme I have chosen convey a sense of professionalism and is easy on the eyes
-    Navy (#24445A) 
-    gold (#8E8241) 
-    olive (#54511F) 
-    slate blue (#3A485E) 
+## Color Scheme
 
-    
+I used Adobe Color to pick four main colors:
+
+- Navy (#24445A)
+- Gold (#8E8241)
+- Olive (#54511F)
+- Slate blue (#3A485E)
+
+I also use a light cream (#F4F1E6) for text.
+
+These colors look professional and are easy on the eyes. They are also easy to tell apart from each other. I use the cream color for all text on the dark backgrounds because it is easy to read. Gold is only used for borders and accents, since it doesn't contrast well with the darker colors as a text color.
+
+## Viewport Dimensions
+
+- **Desktop (base.css): The default layout, used on screens wider than 959px. The page has two columns, with the main content on the left and the side panel on the right.
+- **Tablet (tablet.css): 601 to 959px. This range covers most tablets and small laptop windows. The two-column layout still fits here, so the changes are small.
+- **Phone (phone.css): 600 and under. This covers phones held upright. The columns stack into one so nothing is squeezed, and text and images are sized to fit the narrow screen.
+
+## Gradients
+
+**Angled linear gradient (footer): I put the angled gradient on the footer because it is a design choice that adds interest without drawing attention away from the main content of the page.
+
+**Linear gradient (project cards): I put the linear gradient on the project cards on the Projects page. I think it leads the viewer's eye down toward the next project, and I think it looks nice.
+
+ 
