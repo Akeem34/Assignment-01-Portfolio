@@ -31,17 +31,6 @@ nav {
     text-align: center;
 }
 
-a {
-    color: slateblue;
-}
-
-a:visited { /* after you have visited a link */
-    color: darkslategray;
-}
-
-a:hover { /* while hovering over a link */
-    color: #f2c75c;
-}
 
 main {
     box-sizing: border-box;

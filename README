@@ -15,7 +15,7 @@ These colors look professional and are easy on the eyes. They are also easy to t
 
 - **Desktop (base.css): The default layout, used on screens wider than 959px. The page has two columns, with the main content on the left and the side panel on the right.
 - **Tablet (tablet.css): 601 to 959px. This range covers most tablets and small laptop windows. The two-column layout still fits here, so the changes are small.
-- **Phone (phone.css): 600 and under. This covers phones held upright. The columns stack into one so nothing is squeezed, and text and images are sized to fit the narrow screen.
+- **Phone (phone.css): 600 and under. This covers phones held upright and made my website look nice. The columns stack into one so nothing is squeezed, and text and images are sized to fit the narrow screen.
 
 ## Gradients
 

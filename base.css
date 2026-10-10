@@ -1,7 +1,6 @@
 @charset "UTF-8"; /* tells browser how to interpret the css styling */
 
-.Project_Card{ /* Because Project_Card is a CLASS not an ID (like the wrapper) its uses a '.' to be called in CSS*/
-  
+.Project_Card{ /* Because Project_Card is a CLASS not an ID (like the wrapper) its uses a '.' to be called in CSS*/ 
   background-color: #8E8241;
   border: 1px solid #3d6680;
   border-radius: 30px; /* Rounds the corners of the projects */
